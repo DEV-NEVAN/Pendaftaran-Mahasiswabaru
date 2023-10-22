@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Praktek membuat Form HTML</title>
+	<style>
+		body
+		{
+			background-color: brown;
+		}
+		.container
+		{
+			margin: 0 auto;
+			width: 50%;
+			background-color: orange;
+			border-radius: 20px;
+			border: 10px solid;
+		}
+		h1
+		{
+			text-align: center;
+		}
+		form
+		{
+			margin: 0 auto;
+			width: 70%;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+	<h1>Selamat Datang di Form Mahasiswa</h1>
+	<form method="post">
+		<table>
+			<tr>
+				<td>Nama</td>
+				<td>:</td>
+				<td>
+					<input type="text" name="nama" placeholder="--harus diisi--">
+				</td>
+			</tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr>
+				<td>NIM</td>
+				<td>:</td>
+				<td>
+					<input type="number" name="nim" placeholder="--harus diisi--">
+				</td>
+			</tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr>
+				<td>Email</td>
+				<td>:</td>
+				<td>
+					<input type="email" placeholder="isidong@dong.com" name="email">
+				</td>
+			</tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr>
+				<td>Prodi</td>
+				<td>:</td>
+				<td>
+					<select>
+						<option>--PILIH--</option>
+						<option>Teknik Informatika</option>
+						<option>Teknik Mesin</option>
+						<option>Teknik Sipil</option>
+						<option>Teknik Industri</option>
+						<option>Teknik Elektro</option>
+					</select>
+				</td>
+			</tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr>
+				<td>Alamat</td>
+				<td>:</td>
+				<td>
+					<textarea placeholder="--harus diisi--"></textarea>
+				</td>
+			</tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr>
+				<td>Jenis Kelamin</td>
+				<td>:</td>
+				<td>
+					<input type="radio" name="Jk">Laki-laki
+					<input type="radio" name="Jk">Perempuan
+				</td>
+			</tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr>
+				<td>Upload Foto</td>
+				<td>:</td>
+				<td>
+					<input type="file" name="fotoku" >
+				</td>
+			</tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr></tr>
+			<tr>
+				<td>Hobi</td>
+				<td>:</td>
+				<td>
+					<input type="checkbox" name="hobiku">Memancing
+					<input type="checkbox" name="hobiku">Main Bola
+					<input type="checkbox" name="hobiku">Ngoding
+			<tr>
+				<td></td>
+				<td></td>
+				<td>
+					<input type="checkbox" name="hobiku">bengong
+					<input type="checkbox" name="hobiku">ngejomblo
+				</td>
+			</tr>
+			</tr>
+		</table>
+	</form>
+	<br>
+	</div>
+</body>
+</html>
